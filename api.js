@@ -1,6 +1,7 @@
 'use strict';
 const express = require('express');
 var app = module.exports = express();
+console.log(app);
 
 // simple in memory DB
 var db = [];
